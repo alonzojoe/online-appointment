@@ -115,7 +115,21 @@ const LandingPage = () => {
           </div>
         </div>
       </nav>
-      <section className="main-parent"></section>
+      <section
+        className="main-parent"
+        // style={{
+        //   background: "url('/home.jpg')",
+        //   backgroundRepeat: "no-repeat",
+        //   backgroundSize: "cover",
+        //   backgroundPosition: "center",
+        //   fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+        // }}
+      >
+        <div>
+          <h1 className="main-title">Online Services Appointment System</h1>
+          <button className="btn-main">Book An Appointment</button>
+        </div>
+      </section>
     </>
   );
 };
