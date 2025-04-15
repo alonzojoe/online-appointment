@@ -1,7 +1,13 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LandingPage from "@/pages/Landing/LandingPage";
 function App() {
   return (
     <>
-      <h1>Online Appointment</h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
